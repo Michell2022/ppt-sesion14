@@ -1,18 +1,23 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HijoComponent } from './hijo/hijo.component';
+import { Hijoppt15Component } from './hijoppt15/hijoppt15.component';
+import { FormsModule } from '@angular/forms';
 
 
 
 @NgModule({
   declarations: [
-    HijoComponent
+    HijoComponent,
+    Hijoppt15Component
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ],
   exports: [
-    HijoComponent
+    HijoComponent,
+    Hijoppt15Component
   ]
 })
 export class ComponentsModule { }
